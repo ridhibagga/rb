@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio of Ridhi Bagga - Frontend Developer with expertise in web design, data analytics, and technical troubleshooting.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <a href="#home" onclick="showSection('home')">Home</a>
+            <a href="#about" onclick="showSection('about')">About</a>
+            <a href="#projects" onclick="showSection('projects')">Projects</a>
+            <a href="#blog" onclick="showSection('blog')">Blog</a>
+            <a href="#contact" onclick="showSection('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h1>HI!</h1>
+        <h2>I am Ridhi Bagga</h2>
+        <h3>Frontend Developer</h3>
+    </section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        <div class="project-box">
+            <h3>Smart Irrigation System</h3>
+            <p>An IoT-based system using ESP32 and Blynk to monitor soil moisture and automate water irrigation schedules efficiently.</p>
+        </div>
+        <div class="project-box">
+            <h3>Shopping Solution</h3>
+            <p>A client-server application to view, order, and manage products using a user-friendly interface and backend processing.</p>
+        </div>
+        <div class="project-box">
+            <h3>Weather Data Visualization</h3>
+            <p>Visualized Toronto's weather data using Python, CSV files, and HTML for an interactive web-based display.</p>
+        </div>
+        <div class="project-box">
+            <h3>Multitasking System</h3>
+            <p>Developed an embedded system with FreeRTOS for task management, using semaphores and hardware interrupts.</p>
+        </div>
+        <div class="project-box">
+            <h3>RFID Attendance Tracker</h3>
+            <p>A Python-based RFID system that tracks attendance and exports records to CSV for efficient data management.</p>
+        </div>
+        <!-- Additional projects -->
+        <div class="project-box">
+            <h3>Smart Sensor System</h3>
+            <p>Built a smart sensor system with ESP32 and various sensors (DHT22, rain sensor, soil moisture sensor) to monitor environmental conditions and control devices remotely via Blynk.</p>
+        </div>
+        <div class="project-box">
+            <h3>Task Scheduler System</h3>
+            <p>Created a task scheduler for embedded systems using FreeRTOS, incorporating software timers and task prioritization.</p>
+        </div>
+        <div class="project-box">
+            <h3>Data Entry Automation</h3>
+            <p>Developed an automated data entry tool using Python, designed for processing large datasets and exporting results to CSV files.</p>
+        </div>
+        <div class="project-box">
+            <h3>Book Store Client-Server System</h3>
+            <p>Designed and developed a client-server application for a book store, allowing users to view products, make purchases, and manage orders.</p>
+        </div>
+        <div class="project-box">
+            <h3>Nutrition Tracker App</h3>
+            <p>Built a web-based application that tracks users' daily nutritional intake, including the ability to log food, view detailed analysis, and suggest improvements.</p>
+        </div>
+        <div class="project-box">
+            <h3>Real-Time Embedded Application</h3>
+            <p>Developed a real-time embedded system using ARM microcontrollers and FreeRTOS for automated data collection and monitoring in an industrial setting.</p>
+        </div>
+        <div class="project-box">
+            <h3>Smart Plant Care System</h3>
+            <p>Built an IoT-based plant care system using an ESP32 microcontroller and sensors to monitor soil moisture levels and trigger irrigation based on plant needs.</p>
+        </div>
+    </div>
+
+    
+</section>
+
+
+
+
+
+
+
+
+</section>
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="about-section" style="display: none;">
+        <div class="blob"></div> <!-- Blob background effect -->
+        <div class="card">
+            <h2 class="title">About Me</h2>
+            <p class="subtitle">
+                A brief introduction about myself and my work.  
+                Click the button below to download my resume.
+            </p>
+            <a href="rb.pdf" download>
+                <button class="btn">Download My Resume</button>
+            </a>
+        </div>
+        <div class="about-container">
+            <!-- Index on the left -->
+            <div class="about-index">
+                <h2>Programming Languages Proficiency</h2>
+                <div class="skills-bar">
+                    <div class="skill">
+                        <label for="html">HTML</label>
+                        <div class="bar-container">
+                            <div class="bar" id="html-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="css">CSS</label>
+                        <div class="bar-container">
+                            <div class="bar" id="css-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="javascript">JavaScript</label>
+                        <div class="bar-container">
+                            <div class="bar" id="javascript-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="python">Python</label>
+                        <div class="bar-container">
+                            <div class="bar" id="python-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label for="C#">C#</label>
+                        <div class="bar-container">
+                            <div class="bar" id="C#-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            
+
+            <!-- Content Section -->
+<div class="about-content">
+    <div class="skill-box">
+        <h2 id="frontend">Frontend Development</h2>
+        <p>Skilled in creating responsive, visually appealing, and user-friendly web applications using HTML, CSS, JavaScript, and modern frameworks.</p>
+    </div>
+    
+    <div class="skill-box">
+        <h2 id="uiux">UI/UX Design</h2>
+        <p>Aesthetic sense for crafting intuitive user interfaces and improving user experiences through thoughtful design and feedback loops.</p>
+    </div>
+    
+    <div class="skill-box">
+        <h2 id="data-analytics">Data Analytics</h2>
+        <p>Experienced in analyzing and interpreting data to uncover insights, enabling data-driven decisions using tools like Python and Excel.</p>
+    </div>
+    
+    <div class="skill-box">
+        <h2 id="learning">Continuous Learning</h2>
+        <p>A lifelong learner, always staying up-to-date with the latest web development technologies and best practices.</p>
+    </div>
+    
+    <div class="skill-box">
+        <h2 id="problem-solving">Problem Solving</h2>
+        <p>Enthusiastic about tackling complex challenges and developing efficient and innovative solutions.</p>
+    </div>
+    
+    <div class="skill-box">
+        <h2 id="teamwork">Teamwork and Collaboration</h2>
+        <p>A strong team player, committed to working collaboratively to achieve the best results and ensure project success.</p>
+    </div>
+</div>
+
+    </section>
+
+
+
+<!-- Blog Section -->
+<section id="blog" class="blog-section" style="display: none;">
+    <h2>BLOG</h2>
+    <!-- Bubbles Effect -->
+    <!-- Bubbles Effect -->
+    <main class="app">
+        <div class="boxes">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+    <!-- Adding Image -->
+    <div class="blog-header-image">
+        <img src="me.png" alt="Your Image" style="max-width: 60%; height: auto; border-radius: 80px; margin-bottom: 10px;">
+    </div>
+
+
+    <div class="blog-posts-container">
+        <!-- Blog Post 1 -->
+        <div class="blog-post">
+            <h3>Understanding Frontend Development</h3>
+            <p>
+                Frontend development is all about creating the visible and interactive parts of a website. It involves working with HTML, CSS, and JavaScript...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-1')">Read More</span>
+            </p>
+            <div id="blog-post-1" class="full-post" style="display: none;">
+                <p>Frontend developers are responsible for translating a website's design into code and ensuring that the user experience is seamless across different devices. Frontend development involves a deep understanding of HTML for structure, CSS for design, and JavaScript for functionality...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="blog-post">
+            <h3>The Importance of UI/UX Design</h3>
+            <p>
+                UI/UX design is about creating an intuitive and pleasant experience for users when they interact with a website or application...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-2')">Read More</span>
+            </p>
+            <div id="blog-post-2" class="full-post" style="display: none;">
+                <p>UI/UX design is crucial because it directly impacts how users feel when interacting with a product. A good UI/UX design creates an easy and enjoyable user experience, while a poor design can frustrate users and make them leave the website...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="blog-post">
+            <h3>Data Analytics in Web Development</h3>
+            <p>
+                Data analytics plays a key role in web development, allowing developers to make data-driven decisions about how a website should function and perform...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-3')">Read More</span>
+            </p>
+            <div id="blog-post-3" class="full-post" style="display: none;">
+                <p>By analyzing data from website visitors, developers can optimize web pages for better performance, enhance the user experience, and improve conversion rates. Tools like Google Analytics, combined with Python and SQL, can help extract valuable insights from large data sets...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 4 -->
+        <div class="blog-post">
+            <h3>Continuous Learning in Technology</h3>
+            <p>
+                The tech industry is constantly evolving, which means that developers must continue to learn new skills and stay up-to-date with the latest trends...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-4')">Read More</span>
+            </p>
+            <div id="blog-post-4" class="full-post" style="display: none;">
+                <p>In an industry as fast-paced as technology, staying ahead means learning continuously. Whether through online courses, bootcamps, or hands-on experience, continuous learning helps developers remain competitive and deliver the best results in their projects...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 5 -->
+        <div class="blog-post">
+            <h3>How to Approach Problem Solving in Development</h3>
+            <p>
+                Problem-solving is a crucial skill for developers. Whether you're debugging a website or developing a new feature, a logical and systematic approach will help you succeed...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-5')">Read More</span>
+            </p>
+            <div id="blog-post-5" class="full-post" style="display: none;">
+                <p>Problem-solving involves breaking down complex issues into manageable steps. It's about identifying the root cause of the problem and exploring various solutions before implementing the best one. This skill is essential for debugging, designing new systems, and making improvements to existing code...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 6 -->
+        <div class="blog-post">
+            <h3>Mastering Backend Development</h3>
+            <p>
+                Backend development focuses on the server-side logic, databases, and API development that make websites functional behind the scenes...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-6')">Read More</span>
+            </p>
+            <div id="blog-post-6" class="full-post" style="display: none;">
+                <p>Backend developers work with server-side programming languages like Python, Ruby, or Java to create functionality for websites and applications. Mastering backend development involves understanding databases, managing server resources, and building APIs that allow frontend and backend systems to communicate...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 7 -->
+        <div class="blog-post">
+            <h3>Introduction to Cloud Computing</h3>
+            <p>
+                Cloud computing is revolutionizing how businesses store and manage their data. It allows for scalable resources and services on-demand...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-7')">Read More</span>
+            </p>
+            <div id="blog-post-7" class="full-post" style="display: none;">
+                <p>Cloud computing enables businesses to use the internet to access and store data, rather than relying on physical hardware. Services like AWS, Google Cloud, and Microsoft Azure provide scalable, cost-effective solutions for enterprises of all sizes, transforming the way they approach data management and storage...</p>
+            </div>
+        </div>
+
+        <!-- Blog Post 8 -->
+        <div class="blog-post">
+            <h3>Automation in Software Development</h3>
+            <p>
+                Automation is increasingly becoming an integral part of the software development lifecycle. It helps streamline repetitive tasks and improves efficiency...
+                <span class="read-more" onclick="toggleBlogPost('blog-post-8')">Read More</span>
+            </p>
+            <div id="blog-post-8" class="full-post" style="display: none;">
+                <p>Automating tasks such as testing, deployment, and integration can significantly reduce errors and save time. Tools like Jenkins, Selenium, and GitLab CI/CD enable developers to automate processes and ensure that applications are deployed faster with fewer bugs...</p>
+            </div>
+        </div>
+    </div>
+</main>
+</section>
+
+<script>
+function toggleBlogPost(postId) {
+    const post = document.getElementById(postId);
+    post.style.display = post.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" style="display: none;">
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+
+        <!-- Contact Form -->
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28848.6098537196!2d-79.7935794604492!3d43.7157325992439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3e688849fdef%3A0xa88d10c8b972fc48!2sBrampton%2C%20ON!5e0!3m2!1sen!2sca!4v1699030654451!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Floating Icon -->
+    <div class="floating-icon" onclick="showMenu()">
+        <i class="fas fa-user"></i>
+        <div id="hoverMenu" class="hover-menu">
+            <a href="https://www.linkedin.com/in/ridhi-bagga-b47a24248" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="tel:4372559798"><i class="fas fa-phone"></i></a>
+            <a href="mailto:Baggaridhi818@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        function showMenu() {
+            const menu = document.getElementById('hoverMenu');
+            menu.classList.toggle('active');
+            setTimeout(() => menu.classList.remove('active'), 9000);
+        }
+
+        window.onload = () => showSection('home');
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

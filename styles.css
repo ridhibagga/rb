@@ -1,0 +1,904 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c53de;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    text-emphasis-color: #745ada;
+    padding: 50px;
+    min-height: 900px;
+    background-image: url('gif.gif');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+   color: rgb(117, 132, 209);
+}
+
+/* Projects Section */
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+.projects-section {
+    width: 100%;
+   min-height: 500px;
+   overflow-x: auto;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.projects-container {
+    display: flex;
+    flex-direction: column; /* Ensure vertical stacking */
+    gap: 20px;
+    height: 100vh; /* Full screen height */
+    overflow-y: auto;
+    transition: transform 0.3s ease-out;
+
+    /* Center the container */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 0 auto; /* Center within its parent container */
+
+    /* Add Gradient Background */
+    background: linear-gradient(135deg, rgba(110, 127, 126, 0.7), rgba(181, 203, 236, 0.7)), 
+        url('smart irrigation.jpg'); /* Gradient with image background */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed while scrolling */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px; /* Add padding for internal spacing */
+
+    /* Box shadow for depth */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly darker shadow for contrast */
+
+    /* Add smooth scroll for overflow */
+    scroll-behavior: smooth;
+
+    position: relative; /* Necessary for the pseudo-element */
+    width: 100%; /* Full width of the parent container */
+}
+
+
+.project-box {
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    background: #adb0cc; /* Base background color */
+    border: 1px solid #b3d2f0; /* Light border for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover Effects */
+.project-box:hover {
+    transform: translateY(-5px) scale(1.05); /* Slight lift and zoom */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    background: linear-gradient(135deg, #b3d2f0, #adb0cc); /* Gradient background on hover */
+}
+
+/* Active Effects (when clicked) */
+.project-box:active {
+    transform: scale(0.95); /* Slight compression for feedback */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+}
+
+/* Adding subtle text styling */
+.project-box h3 {
+    font-size: 1.2rem; /* Slightly larger font for the title */
+    color: #2e3b55; /* Darker color for better contrast */
+    margin-bottom: 10px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.project-box p {
+    font-size: 0.95rem; /* Normal font size for descriptions */
+    color: #5c6b8a; /* Softer color for secondary text */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effects for text */
+.project-box:hover h3 {
+    color: #1d2a47; /* Slightly darker on hover */
+}
+
+.project-box:hover p {
+    color: #4a5670; /* Enhanced contrast on hover */
+}
+
+/* Adding glow effect (optional, can be removed if too flashy) */
+.project-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 15px rgba(179, 210, 240, 0.5); /* Subtle glow effect */
+}
+
+
+.project-box span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Section */
+.about-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+/* About Section */
+.about-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+.about-index {
+    padding: 2rem;
+}
+
+/* Skills Section */
+.skills-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fa709a; /* Accent color */
+}
+
+.bar-container {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+}
+
+.bar {
+    background-color: #fa709a; /* Accent color */
+    height: 100%;
+    transition: width 1s ease;
+}
+
+/* Skills Grid */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.skill-box {
+    background-color: #1a1a40;
+    color: whitesmoke;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.skill-box h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #fa709a;
+}
+
+.skill-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Card Styles */
+.card {
+    width: 400px;
+    min-height: 250px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 10;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: #fa709a;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* Blob Animation */
+.blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(47, 184, 255, 0.42) 31.77%, #5c9df1 100%);
+    mix-blend-mode: color-dodge;
+    animation: move 25s infinite alternate;
+    transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
+    z-index: 0;
+}
+
+.blob:hover {
+    width: 520px;
+    height: 520px;
+    filter: blur(30px);
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.6), inset 100px 100px 0 0px #fa709a, inset 200px 200px 0 0px #784ba8, inset 300px 300px 0 0px #2b86c5;
+}
+
+@keyframes move {
+    from {
+        transform: translate(-100px, -50px) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+    to {
+        transform: translate(500px, 100px) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+}
+
+/* Floating Icon Styles */
+.floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.floating-icon:hover {
+    background-color: #0056b3;
+}
+
+/* Hover Menu Styles */
+.hover-menu {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.floating-icon:hover .hover-menu {
+    display: flex;
+}
+
+.floating-icon .hover-menu {
+    pointer-events: auto;
+}
+
+.hover-menu a {
+    margin: 5px 0;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hover-menu a:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+/* Contact Section */
+/* Contact Form Styling */
+.contact-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.contact-container:hover {
+    transform: translateY(-10px); /* Uplift the box */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.contact-container textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Map Section Styling */
+.map-container {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-container:hover {
+    transform: translateY(-10px); /* Uplift the box */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/* General Styling for Clouds */
+.cloud {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+/* Individual Cloud Sizes and Positions */
+.cloud1 {
+    width: 100px;
+    height: 60px;
+    top: 10%;
+    left: 15%;
+    animation: float 15s linear infinite;
+}
+
+.cloud1::before,
+.cloud1::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud1::before {
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    left: 20px;
+}
+
+.cloud1::after {
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 80px;
+}
+
+.cloud2 {
+    width: 140px;
+    height: 80px;
+    top: 25%;
+    right: 10%;
+    animation: float 20s linear infinite reverse;
+}
+
+.cloud2::before,
+.cloud2::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud2::before {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: 30px;
+}
+
+.cloud2::after {
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    left: 100px;
+}
+
+.cloud3 {
+    width: 120px;
+    height: 70px;
+    bottom: 15%;
+    left: 50%;
+    animation: float 18s linear infinite;
+}
+
+.cloud3::before,
+.cloud3::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.cloud3::before {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+    left: 25px;
+}
+
+.cloud3::after {
+    width: 60px;
+    height: 60px;
+    top: 25px;
+    left: 90px;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog Section */
+.blog-section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blog-header {
+    display: flex;
+    align-items:first baseline;
+    gap: 0px;
+    margin-bottom: 20px;
+}
+
+.blog-header-image {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 0; /* Ensure no margin */
+    margin-bottom: 0;
+    
+    vertical-align: middle; /* Adjust this for better alignment with text */
+}
+
+
+.blog-header h1 {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+
+
+.blog-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+   
+    position: absolute; /* Enables positioning relative to its normal position */
+    top: 155px; /* Adjust this value to fine-tune the vertical position */
+    left: 205px; /* Moves the element to the right, you can adjust this as needed */
+
+    display: inline-block; /* Aligns h2 next to the image */
+    vertical-align: top; /* Ensures the text aligns with the top of the image */
+}
+
+.blog-posts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.blog-post {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* Ensure the pseudo-element does not overflow */
+    transition: all 0.3s;
+}
+
+.blog-post::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    filter: blur(5px); /* Apply blur to the background */
+    z-index: -1; /* Make sure the blur is behind the content */
+}
+
+.blog-post:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.blog-post p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #0066cc;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Full Blog Post */
+.full-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.full-post p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.author {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .blog-posts-container {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+        margin: 0 8px;
+    }
+
+    .blog-post h3 {
+        font-size: 20px;
+    }
+
+    .blog-post p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow:visible;
+  }
+  html,body{
+    height:100%;
+    
+  }
+  .app{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  height:100vh;
+  width:100%;
+  }
+  ul{
+    display:block;
+    width:100%;
+    height:inherit;
+  }
+  ul{
+    list-style-type:none;
+  }
+  li:nth-child(1)
+  {
+    position:absolute;
+    left:10%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(2)
+  {
+    position:absolute;
+    left:30%;
+    height:45px;
+    width:45px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(3)
+  {
+    position:absolute;
+    left:50%;
+    height:70px;
+    width:70px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(4)
+  {
+    position:absolute;
+    left:80%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+  }
+  li{
+    animation:animate 15s linear 1s infinite;
+  }
+  
+  @keyframes animate{
+    from{
+      transform: translateY(+1500%) rotate(180deg)
+    }
+    to{
+      transform: translateY(-150%)
+        rotate(360deg)
+    }
+  }
